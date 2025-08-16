@@ -1,0 +1,40 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/BairroBrasilAnalytics.Api/app.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7693"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00223x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:42:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BairroBrasilAnalytics.Api/app.lzy0vkq9zl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lzy0vkq9zl"},{"Name":"integrity","Value":"sha256-3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U="},{"Name":"label","Value":"_content/BairroBrasilAnalytics.Api/app.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7693"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00223x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:42:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BairroBrasilAnalytics.Api/index.6ojlmudgo2.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ojlmudgo2"},{"Name":"integrity","Value":"sha256-KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs="},{"Name":"label","Value":"_content/BairroBrasilAnalytics.Api/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3550"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:59:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BairroBrasilAnalytics.Api/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3550"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:59:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BairroBrasilAnalytics.Api/style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3\u002BK7dI4hTH0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3280"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3\u002BK7dI4hTH0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:42:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BairroBrasilAnalytics.Api/style.qtweyu4wlh.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qtweyu4wlh"},{"Name":"integrity","Value":"sha256-Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3\u002BK7dI4hTH0="},{"Name":"label","Value":"_content/BairroBrasilAnalytics.Api/style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3280"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3\u002BK7dI4hTH0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 Aug 2025 23:42:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

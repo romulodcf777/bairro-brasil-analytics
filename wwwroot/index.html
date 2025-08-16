@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sistema de Controle - Bairro Brasil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sistema de Controle - Bairro Brasil</h1>
+      <nav>
+        <button id="tab-register">Cadastrar Venda</button>
+        <button id="tab-list">Ver Registros</button>
+        <button id="tab-charts">Relatórios</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="section-register" class="active">
+        <h2>Cadastrar Nova Venda</h2>
+        <form id="form-record">
+          <div class="form-row">
+            <label>
+              Data e Hora:
+              <input type="datetime-local" id="timestamp" />
+            </label>
+            <label>
+              Estabelecimento:
+              <select id="source">
+                <option>Academia Adrena</option>
+                <option>Lanchonete da Cau</option>
+                <option>Armarinho Eliana</option>
+                <option>Outro</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              Categoria:
+              <select id="category"></select>
+            </label>
+            <label>
+              Valor (R$):
+              <input
+                type="number"
+                id="amount"
+                step="0.01"
+                min="0"
+                placeholder="0,00"
+              />
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              Observações:
+              <input
+                type="text"
+                id="notes"
+                maxlength="100"
+                placeholder="Descrição da venda (opcional)"
+              />
+            </label>
+          </div>
+          <div class="form-actions">
+            <button type="submit">Salvar Registro</button>
+            <button type="button" id="btn-add-category">Nova Categoria</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="section-list">
+        <h2>Registros de Vendas</h2>
+        <div class="filtros">
+          <input type="date" id="f-from" />
+          <span>até</span>
+          <input type="date" id="f-to" />
+          <input type="text" id="f-source" placeholder="Estabelecimento..." />
+          <input type="text" id="f-category" placeholder="Categoria..." />
+          <button id="btn-filter">Buscar</button>
+          <a id="btn-export" href="#">Exportar CSV</a>
+        </div>
+        <div class="tabela-container">
+          <table id="table-records">
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Estabelecimento</th>
+                <th>Categoria</th>
+                <th>Valor</th>
+                <th>Observações</th>
+                <th>Ações</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="section-charts">
+        <h2>Relatório por Categoria</h2>
+        <canvas id="chart" width="800" height="400"></canvas>
+        <p class="dica">
+          💡 Use os filtros na aba "Ver Registros" e volte aqui para atualizar o
+          gráfico.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        BairroBrAnalitycs •
+        <a href="/swagger" target="_blank">Ver API</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

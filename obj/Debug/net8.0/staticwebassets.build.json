@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "iVBUrzlhfEA2WApwGxnRsyMoDMigQGMii0tZAKRdnSc=",
+  "Source": "BairroBrasilAnalytics.Api",
+  "BasePath": "_content/BairroBrasilAnalytics.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BairroBrasilAnalytics.Api\\wwwroot",
+      "Source": "BairroBrasilAnalytics.Api",
+      "ContentRoot": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\",
+      "BasePath": "_content/BairroBrasilAnalytics.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\app.js",
+      "SourceId": "BairroBrasilAnalytics.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\",
+      "BasePath": "_content/BairroBrasilAnalytics.Api",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lzy0vkq9zl",
+      "Integrity": "3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\index.html",
+      "SourceId": "BairroBrasilAnalytics.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\",
+      "BasePath": "_content/BairroBrasilAnalytics.Api",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ojlmudgo2",
+      "Integrity": "KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\style.css",
+      "SourceId": "BairroBrasilAnalytics.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\",
+      "BasePath": "_content/BairroBrasilAnalytics.Api",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qtweyu4wlh",
+      "Integrity": "Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3+K7dI4hTH0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:42:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U="
+        }
+      ]
+    },
+    {
+      "Route": "app.lzy0vkq9zl.js",
+      "AssetFile": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7693"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:42:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lzy0vkq9zl"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3x/RBewyyPydXpF0ebE89yHAfMgavQ5nIDtSWvhBZ4U="
+        }
+      ]
+    },
+    {
+      "Route": "index.6ojlmudgo2.html",
+      "AssetFile": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ojlmudgo2"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:59:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KstFPpqxVfT8t9VbDnz4KC1IXtLdtfyDwbsyVK8xtgs="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3+K7dI4hTH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:42:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3+K7dI4hTH0="
+        }
+      ]
+    },
+    {
+      "Route": "style.qtweyu4wlh.css",
+      "AssetFile": "C:\\Users\\romul\\Desktop\\bairro-brasil-analytics\\src\\api\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3+K7dI4hTH0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Aug 2025 23:42:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qtweyu4wlh"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Uoih5C7YOk71Tl6YnX9VwHZrhj1D8hyJ3+K7dI4hTH0="
+        }
+      ]
+    }
+  ]
+}
